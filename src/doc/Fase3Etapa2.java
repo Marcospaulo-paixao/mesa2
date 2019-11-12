@@ -1,4 +1,5 @@
-package bolodepote;
+//package bolodepote;
+package doc;
 
 // Random para teste
 import java.util.Random;
@@ -38,7 +39,7 @@ public class Fase3Etapa2 {
             }
             // Repetição: Nova receita SIM ou NÃO(Finaliza)
             do {
-                System.out.printf("\nDeseja nformar uma nova receita [S]-[N] ?");
+                System.out.printf("\nDeseja informar uma nova receita [S]-[N] ?");
                 respostaContinue = input.next();
                 if (respostaContinue.equalsIgnoreCase("s")) {
                     sair = true;
